@@ -312,9 +312,11 @@ export default function HomePage() {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6">
         <header className="flex flex-col gap-4 rounded-lg border border-white/10 bg-black/20 p-4 backdrop-blur sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-md bg-forge text-ink">
-              <span className="text-sm font-black">CF</span>
-            </div>
+            <img
+              src="/cforge-golden-coin.png"
+              alt=""
+              className="h-12 w-12 rounded-full object-contain"
+            />
             <div>
               <p className="text-sm text-white/60">Celo token forge</p>
               <h1 className="text-2xl font-semibold tracking-normal text-white">C-forge</h1>
