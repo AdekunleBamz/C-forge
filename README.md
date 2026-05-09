@@ -51,3 +51,9 @@ The app consumes local file dependencies from `/Users/apple/C-forge-sdk`:
 - `@bamzzstudio/cforge-react`
 
 Each package can be published independently later.
+
+## Operational Notes
+
+- [Release checklist](docs/release-checklist.md)
+- [MiniPay minting notes](docs/minipay-minting.md)
+- [Contract operations](docs/contract-operations.md)
