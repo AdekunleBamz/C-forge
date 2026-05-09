@@ -8,6 +8,7 @@ Repository: https://github.com/AdekunleBamz/C-forge
 - MiniPay mint fee: `0.0002 USDm`, `0.0002 USDC`, or `0.0002 USDT`
 - Mint output: `1000 CFRG`
 - Chain: Celo mainnet
+- Deployed CFRG contract: `0x24A3b0B4A60Cf33dFb37E4725d987E6002828F04`
 
 The SDK is a separate repo at `/Users/apple/C-forge-sdk` and is split into tiny sibling packages.
 
@@ -30,7 +31,7 @@ PATH=/usr/local/bin:$PATH npm run deploy:celo
 Set the deployed address:
 
 ```bash
-NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS=0x...
+NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS=0x24A3b0B4A60Cf33dFb37E4725d987E6002828F04
 ```
 
 Run the app:

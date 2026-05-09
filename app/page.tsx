@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { createPublicClient, createWalletClient, custom, http, type Address } from "viem";
 import { celo } from "viem/chains";
 import { CFRG_TOKEN_ABI, ERC20_APPROVAL_ABI } from "@bamzzstudio/cforge-abi";
-import { CELO_STABLECOINS, type StableSymbol } from "@bamzzstudio/cforge-addresses";
+import { CELO_STABLECOINS, CFRG_TOKEN, type StableSymbol } from "@bamzzstudio/cforge-addresses";
 import {
   CFRG_MINT_AMOUNT_DISPLAY,
   MINIPAY_STABLE_MINT_FEE_DISPLAY,
@@ -54,7 +54,7 @@ export default function HomePage() {
   const [stableBalance, setStableBalance] = useState<bigint>();
   const [allowance, setAllowance] = useState<bigint>();
 
-  const tokenAddress = process.env.NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS;
+  const tokenAddress = process.env.NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS || CFRG_TOKEN.address;
   const cfrgAddress = isHexAddress(tokenAddress) && tokenAddress !== "0x0000000000000000000000000000000000000000"
     ? (tokenAddress as Address)
     : undefined;
