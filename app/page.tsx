@@ -517,9 +517,9 @@ export default function HomePage() {
 
           <aside className="flex flex-col gap-4">
             <div className="rounded-lg border border-white/10 bg-[#15181a]/95 p-5">
-              <h3 className="text-lg font-semibold text-white">Proof of Ship angle</h3>
+              <h3 className="text-lg font-semibold text-white">What you get</h3>
               <p className="mt-2 text-sm leading-6 text-white/64">
-                CFRG is a low-cost Celo participation token designed for MiniPay distribution, weekly activity, and real onchain mint transactions.
+                Each successful mint sends {CFRG_MINT_AMOUNT_DISPLAY} CFRG to your connected wallet. Your balance updates here after the Celo transaction confirms.
               </p>
             </div>
 
@@ -542,12 +542,32 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-lg border border-white/10 bg-[#15181a]/95 p-5">
-              <h3 className="text-lg font-semibold text-white">Next boosters</h3>
-              <ul className="mt-3 space-y-2 text-sm leading-6 text-white/64">
-                <li>Register the agent workflow with ERC-8004.</li>
-                <li>Add x402 paid agent actions for MiniPay users.</li>
-                <li>Publish the SDK packages for external integrations.</li>
-              </ul>
+              <h3 className="text-lg font-semibold text-white">Contract details</h3>
+              <div className="mt-4 space-y-3 text-sm">
+                <div className="flex justify-between gap-3">
+                  <span className="text-white/55">Token</span>
+                  <span className="font-semibold text-white">cforge (CFRG)</span>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <span className="text-white/55">Network</span>
+                  <span className="font-semibold text-white">Celo mainnet</span>
+                </div>
+                <div className="flex justify-between gap-3">
+                  <span className="text-white/55">Contract</span>
+                  {cfrgAddress ? (
+                    <a
+                      href={getExplorerAddressUrl(cfrgAddress)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-semibold text-forge underline"
+                    >
+                      {shortAddress(cfrgAddress)}
+                    </a>
+                  ) : (
+                    <span className="font-semibold text-white">Not set</span>
+                  )}
+                </div>
+              </div>
             </div>
           </aside>
         </section>
