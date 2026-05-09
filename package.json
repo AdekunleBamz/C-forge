@@ -1,0 +1,54 @@
+{
+  "name": "c-forge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "C-forge CFRG token minting app for Celo and MiniPay.",
+  "homepage": "https://github.com/AdekunleBamz/C-forge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdekunleBamz/C-forge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdekunleBamz/C-forge/issues"
+  },
+  "keywords": [
+    "cforge",
+    "celo",
+    "minipay",
+    "erc-20",
+    "stablecoin",
+    "token-minting"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "deploy:celo": "tsx scripts/deploy-cforge.ts"
+  },
+  "dependencies": {
+    "@bamzzstudio/cforge-abi": "file:../C-forge-sdk/packages/abi",
+    "@bamzzstudio/cforge-addresses": "file:../C-forge-sdk/packages/addresses",
+    "@bamzzstudio/cforge-core": "file:../C-forge-sdk/packages/core",
+    "@bamzzstudio/cforge-react": "file:../C-forge-sdk/packages/react",
+    "@bamzzstudio/cforge-wallets": "file:../C-forge-sdk/packages/wallets",
+    "next": "^16.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.21.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^17.4.2",
+    "postcss": "^8.4.47",
+    "solc": "^0.8.24",
+    "tailwindcss": "^3.4.12",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.2"
+  }
+}
