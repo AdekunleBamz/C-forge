@@ -9,6 +9,8 @@ The deployed `CForgeToken` contract has a small owner-operated surface for produ
 - `setPaused` pauses minting without affecting ERC-20 transfers.
 - `transferOwnership` moves owner permissions to a new wallet.
 
+Before transferring ownership, confirm the new owner wallet can sign Celo mainnet transactions.
+
 ## Post-Change Checks
 
 - Read `treasury`, `paused`, and the edited `stableMintFee` value after any owner action.
