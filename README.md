@@ -59,3 +59,4 @@ Each package can be published independently later.
 - [Release checklist](docs/release-checklist.md)
 - [MiniPay minting notes](docs/minipay-minting.md)
 - [Contract operations](docs/contract-operations.md)
+- [QA notes](docs/qa-notes.md)
