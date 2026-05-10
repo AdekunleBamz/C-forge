@@ -14,6 +14,7 @@ contract CForgeToken {
     uint256 public constant MINT_AMOUNT = 1000 ether;
     uint256 public constant MAX_SUPPLY = 1_000_000_000 ether;
 
+    // Celo mainnet stablecoins supported for MiniPay mint fees.
     address public constant USDM = 0x765DE816845861e75A25fCA122bb6898B8B1282a;
     address public constant USDC = 0xcebA9300f2b948710d2653dD7B07f33A8B32118C;
     address public constant USDT = 0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e;
