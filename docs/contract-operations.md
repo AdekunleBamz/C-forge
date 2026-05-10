@@ -12,4 +12,5 @@ The deployed `CForgeToken` contract has a small owner-operated surface for produ
 ## Post-Change Checks
 
 - Read `treasury`, `paused`, and the edited `stableMintFee` value after any owner action.
+- Confirm stablecoin fee units match the token decimals before calling `setStableFee`.
 - Complete one read-only app load after an owner action to confirm the UI still reflects the deployed contract.
