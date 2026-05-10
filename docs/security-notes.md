@@ -5,3 +5,4 @@
 - Confirm stablecoin token addresses before enabling or changing fees.
 - Use `setPaused(true)` if minting needs to stop while ERC-20 transfers remain available.
 - Recheck the deployed contract address after every redeploy.
+- Never paste a production private key into browser-visible `NEXT_PUBLIC_*` variables.
