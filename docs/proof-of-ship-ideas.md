@@ -27,3 +27,5 @@ Six practical MiniPay apps that fit the campaign brief and can produce real Celo
    - Good leaderboard fit: growth loops, unique active wallets, easy community demos.
 
 For the AI agent prize pool, the strongest extension is idea 2: an ERC-8004 registered agent that accepts a text description, creates NFT metadata/art, and exposes an agent wallet with onchain transactions.
+
+Keep this list as product exploration only; production release checks live in `docs/release-checklist.md`.
