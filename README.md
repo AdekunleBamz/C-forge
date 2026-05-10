@@ -60,3 +60,4 @@ Each package can be published independently later.
 - [MiniPay minting notes](docs/minipay-minting.md)
 - [Contract operations](docs/contract-operations.md)
 - [QA notes](docs/qa-notes.md)
+- [Security notes](docs/security-notes.md)
