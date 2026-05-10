@@ -56,6 +56,8 @@ The app consumes local file dependencies from `/Users/apple/C-forge-sdk`:
 
 Each package can be published independently later.
 
+Run app release checks after SDK package updates so ABI, addresses, and UI helpers stay aligned.
+
 ## Operational Notes
 
 - [Release checklist](docs/release-checklist.md)
