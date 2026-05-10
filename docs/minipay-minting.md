@@ -14,3 +14,7 @@ C-forge supports stablecoin minting for MiniPay users through `mintWithStable`.
 - Confirm the user completes the stablecoin approval before minting.
 - Confirm the approval receipt is available before asking for the mint transaction.
 - Keep MiniPay sessions on Celo mainnet; do not prompt MiniPay users to switch chains.
+
+## Reviewer Notes
+
+Share the CFRG contract address and supported stablecoin fee list with reviewers so they can compare the MiniPay screen against the deployed contract.
