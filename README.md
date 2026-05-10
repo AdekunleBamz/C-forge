@@ -22,6 +22,8 @@ PATH=/usr/local/bin:$PATH npm install
 cp .env.example .env.local
 ```
 
+Set deployment-only values only when running the deploy script, not for normal frontend development.
+
 Deploy the contract:
 
 ```bash
