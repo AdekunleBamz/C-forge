@@ -6,6 +6,7 @@
 - Confirm the app asks for Celo mainnet before minting.
 - Confirm the CELO mint fee reads `0.002 CELO`.
 - Confirm the CFRG balance refreshes after a successful mint.
+- Confirm the app shows a clear message if the token address is not configured.
 
 ## MiniPay
 
