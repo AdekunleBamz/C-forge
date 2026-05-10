@@ -8,6 +8,8 @@ C-forge supports stablecoin minting for MiniPay users through `mintWithStable`.
 - USDC: `0.0002` with 6 decimals.
 - USDT: `0.0002` with 6 decimals.
 
+The app and contract both use Celo mainnet stablecoin addresses for these options.
+
 ## Review Checks
 
 - Confirm the selected stablecoin has a non-zero fee in `stableMintFee`.
