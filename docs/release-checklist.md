@@ -15,3 +15,4 @@ Use this checklist before promoting a Vercel deployment.
 - Open the app in a normal browser and confirm the CELO mint fee is `0.002 CELO`.
 - Open the app in MiniPay and confirm stablecoin mint options show the expected USDm, USDC, and USDT fees.
 - Confirm the displayed contract address matches the deployed CFRG token address.
+- Confirm total supply and connected wallet balance load from Celo mainnet.
