@@ -34,6 +34,8 @@ Set the deployed address:
 NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS=0x24A3b0B4A60Cf33dFb37E4725d987E6002828F04
 ```
 
+See [Environment reference](docs/environment.md) for public app variables and deploy-only variables.
+
 Run the app:
 
 ```bash
