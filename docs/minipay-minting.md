@@ -20,3 +20,5 @@ The app and contract both use Celo mainnet stablecoin addresses for these option
 ## Reviewer Notes
 
 Share the CFRG contract address and supported stablecoin fee list with reviewers so they can compare the MiniPay screen against the deployed contract.
+
+Capture the MiniPay app version used for the stablecoin mint review.
