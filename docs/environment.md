@@ -11,3 +11,5 @@ C-forge reads public app settings and private deploy settings from environment v
 | `CFORGE_TREASURY` | Deploy script | Treasury wallet passed to the contract constructor. |
 
 Use `.env.local` for app development and a separate deploy shell/session for private deploy variables.
+
+Record the Vercel environment and reviewer whenever public token or fee variables change.
