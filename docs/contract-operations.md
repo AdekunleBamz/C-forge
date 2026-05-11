@@ -18,3 +18,4 @@ Before transferring ownership, confirm the new owner wallet can sign Celo mainne
 - Read `treasury`, `paused`, and the edited `stableMintFee` value after any owner action.
 - Confirm stablecoin fee units match the token decimals before calling `setStableFee`.
 - Complete one read-only app load after an owner action to confirm the UI still reflects the deployed contract.
+- Record the owner wallet, action, and transaction hash in the operation note.
