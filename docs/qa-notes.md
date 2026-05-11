@@ -14,3 +14,4 @@
 - Confirm stablecoin options show USDm, USDC, and USDT.
 - Confirm the selected stablecoin balance and allowance load.
 - Confirm minting stays on Celo mainnet.
+- Save the wallet type used for each mint smoke test.
