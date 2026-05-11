@@ -65,3 +65,5 @@ Run app release checks after SDK package updates so ABI, addresses, and UI helpe
 - [Contract operations](docs/contract-operations.md)
 - [QA notes](docs/qa-notes.md)
 - [Security notes](docs/security-notes.md)
+
+Keep release evidence tied to the mint hash so support can match screenshots, wallet prompts, and explorer links quickly.
