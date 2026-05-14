@@ -1,5 +1,9 @@
 # QA Notes
 
+## Pre-Smoke-Test
+
+- Run `npm run typecheck` before smoke testing a new build.
+
 ## Web Wallet
 
 - Connect a Celo-compatible wallet.
