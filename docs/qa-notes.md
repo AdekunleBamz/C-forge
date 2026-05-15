@@ -3,6 +3,7 @@
 ## Pre-Smoke-Test
 
 - Run `npm run typecheck` before smoke testing a new build.
+- Confirm `NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS` is set and matches the deployed CFRG contract before each test session.
 
 ## Web Wallet
 
