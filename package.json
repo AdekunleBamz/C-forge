@@ -20,6 +20,9 @@
     "token-minting"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
