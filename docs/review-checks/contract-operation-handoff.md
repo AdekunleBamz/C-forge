@@ -4,3 +4,4 @@
 - Link to the contract operations guide for repeatable steps.
 - Avoid sharing private signer details in handoff notes.
 - Include the public explorer link for each owner operation.
+- Include the owner wallet label used for the operation.
