@@ -7,6 +7,7 @@ Use this checklist before promoting a Vercel deployment.
 - Run `npm run lint` to confirm the app passes the configured lint command.
 - Run `npm run typecheck` to confirm TypeScript still compiles.
 - Run `npm run build` to confirm the Next.js production bundle builds.
+- Confirm local SDK package versions match the release candidate before building.
 - Confirm `NEXT_PUBLIC_CFORGE_TOKEN_ADDRESS` points to the intended Celo mainnet token.
 - Confirm the Vercel project has the same public token address before promoting production.
 
