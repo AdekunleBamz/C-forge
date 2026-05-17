@@ -24,3 +24,5 @@ Note: USDm uses 18 decimals while USDC and USDT use 6. The fee approval amount m
 Share the CFRG contract address and supported stablecoin fee list with reviewers so they can compare the MiniPay screen against the deployed contract.
 
 Capture the MiniPay app version used for the stablecoin mint review.
+
+Repeat the stablecoin approval review after any supported token fee changes.
