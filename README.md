@@ -30,6 +30,8 @@ Deploy the contract:
 PATH=/usr/local/bin:$PATH npm run deploy:celo
 ```
 
+Run deploy commands from a shell that has deploy-only variables loaded, then close that shell before frontend work.
+
 Set the deployed address:
 
 ```bash
