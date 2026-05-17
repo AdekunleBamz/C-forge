@@ -8,6 +8,7 @@
 ## Web Wallet
 
 - Connect a Celo-compatible wallet.
+- Refresh once after connecting and confirm the wallet label remains understandable.
 - Confirm the app asks for Celo mainnet before minting.
 - Confirm the CELO mint fee reads `0.002 CELO`.
 - Confirm the CFRG balance refreshes after a successful mint.
