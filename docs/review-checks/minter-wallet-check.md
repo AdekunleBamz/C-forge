@@ -4,3 +4,4 @@
 - Record the wallet environment and network used during review.
 - Stop the review if the connected account changes before minting.
 - Record the short wallet label used in review screenshots.
+- Confirm the minter wallet remains stable after a page refresh.
