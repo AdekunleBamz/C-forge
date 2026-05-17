@@ -4,3 +4,4 @@
 - Confirm each link resolves without a private account.
 - Record broken links before minting.
 - Store the accepted proof link with the mint evidence.
+- Reopen accepted links after clearing browser session data.
