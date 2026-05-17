@@ -4,3 +4,4 @@
 - Confirm primary actions stay visible above browser controls.
 - Check that long addresses wrap without hiding buttons.
 - Save the viewport width used for the mobile mint review.
+- Confirm the on-screen keyboard does not hide proof entry actions.
