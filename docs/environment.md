@@ -13,3 +13,5 @@ C-forge reads public app settings and private deploy settings from environment v
 Use `.env.local` for app development and a separate deploy shell/session for private deploy variables.
 
 Record the Vercel environment and reviewer whenever public token or fee variables change.
+
+Compare preview and production token addresses before sharing a mint review link.
