@@ -31,3 +31,5 @@ For the AI agent prize pool, the strongest extension is idea 2: an ERC-8004 regi
 Keep this list as product exploration only; production release checks live in `docs/release-checklist.md`.
 
 Move any idea that becomes release-critical into a dated checklist before implementation begins.
+
+Keep concept notes separate from release evidence so reviewers can distinguish ideas from shipped scope.
