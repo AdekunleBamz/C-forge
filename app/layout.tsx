@@ -3,6 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "C-forge",
+  applicationName: "C-forge",
   description: "Mint cforge CFRG tokens on Celo and MiniPay.",
   metadataBase: new URL("https://cforge-app.vercel.app"),
   icons: {
