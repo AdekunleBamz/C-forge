@@ -4,3 +4,4 @@
 - Stop the review if an unexpected chain switch prompt appears.
 - Record the network label used for the smoke test.
 - Note whether MiniPay displayed any chain prompt during review.
+- Confirm MiniPay stablecoin options match the supported mainnet list.
