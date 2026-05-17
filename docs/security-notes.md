@@ -8,3 +8,4 @@
 - Recheck the deployed contract address after every redeploy.
 - Never paste a production private key into browser-visible `NEXT_PUBLIC_*` variables.
 - Confirm owner and treasury addresses before each production mint release.
+- Review shared screenshots so wallet prompts do not expose private signer details.
