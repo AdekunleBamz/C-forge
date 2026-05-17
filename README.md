@@ -17,7 +17,7 @@ SDK repository: https://github.com/AdekunleBamz/C-forge-sdk
 ## Setup
 
 ```bash
-cd /Users/apple/C-forge
+cd /Users/apple/c-forge
 PATH=/usr/local/bin:$PATH npm install
 cp .env.example .env.local
 ```
