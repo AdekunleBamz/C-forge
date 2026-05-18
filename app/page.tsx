@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
 import { createPublicClient, createWalletClient, custom, http, type Address } from "viem";
 import { celo } from "viem/chains";
 import { CFRG_TOKEN_ABI, ERC20_APPROVAL_ABI } from "@bamzzstudio/cforge-abi";
@@ -312,9 +313,11 @@ export default function HomePage() {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6">
         <header className="flex flex-col gap-4 rounded-lg border border-white/10 bg-black/20 p-4 backdrop-blur sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <img
+            <Image
               src="/cforge-golden-coin.png"
               alt=""
+              width={48}
+              height={48}
               className="h-12 w-12 rounded-full object-contain"
             />
             <div>
